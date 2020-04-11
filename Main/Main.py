@@ -56,8 +56,8 @@ def menu_actions(bot, update):
     elif query.data == 'm1':
         # first submenu
         menu_1 = [[InlineKeyboardButton('실시간 차트 검색', callback_data='m1_1')],
-                  [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m1_2')],
-                  [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m1_3')],
+                  # [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m1_2')],
+                  # [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m1_3')],
                   [InlineKeyboardButton('홈으로 돌아가기', callback_data='main')]]
         reply_markup = InlineKeyboardMarkup(menu_1)
         bot.edit_message_text(chat_id=query.message.chat_id,
@@ -68,8 +68,8 @@ def menu_actions(bot, update):
         # second submenu
         # first submenu
         menu_2 = [[InlineKeyboardButton('실시간 차트 검색', callback_data='m2_1')],
-                  [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m2_2')],
-                  [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m2_3')],
+                  # [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m2_2')],
+                  # [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m2_3')],
                   [InlineKeyboardButton('홈으로 돌아가기', callback_data='main')]]
         reply_markup = InlineKeyboardMarkup(menu_2)
         bot.edit_message_text(chat_id=query.message.chat_id,
@@ -79,8 +79,8 @@ def menu_actions(bot, update):
 
     elif query.data == 'm3':
         menu_3 = [[InlineKeyboardButton('실시간 차트 검색', callback_data='m3_1')],
-                  [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m3_2')],
-                  [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m3_3')],
+                  # [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m3_2')],
+                  # [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m3_3')],
                   [InlineKeyboardButton('홈으로 돌아가기', callback_data='main')]]
         reply_markup = InlineKeyboardMarkup(menu_3)
         bot.edit_message_text(chat_id=query.message.chat_id,

@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586607477800</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Simple Chatbot Version&#10;1. Any part that cannot be executed is commented out.&#10;2. Makes Chatbot Simple">
+      <created>1586608232468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586608232468</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,13 +231,14 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Simple Chatbot Version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple Chatbot Version" />
+    <MESSAGE value="Simple Chatbot Version&#10;1. Any part that cannot be executed is commented out.&#10;2. Makes Chatbot Simple" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Chatbot Version&#10;1. Any part that cannot be executed is commented out.&#10;2. Makes Chatbot Simple" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="483" y="95" key="CommitChangelistDialog2" timestamp="1586607471581">
+    <state x="483" y="95" key="CommitChangelistDialog2" timestamp="1586608229432">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
-    <state x="483" y="95" key="CommitChangelistDialog2/0.0.1920.1019@0.0.1920.1019" timestamp="1586607471581" />
+    <state x="483" y="95" key="CommitChangelistDialog2/0.0.1920.1019@0.0.1920.1019" timestamp="1586608229432" />
     <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1586525340617">
       <screen x="0" y="0" width="1920" height="1019" />
     </state>
@@ -269,7 +277,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Main/Main.py</url>
-          <line>123</line>
+          <line>121</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
