@@ -1,6 +1,4 @@
 import logging
-import urllib.request
-import urllib.parse
 
 import requests
 from bs4 import BeautifulSoup
@@ -58,8 +56,8 @@ def menu_actions(bot, update):
     elif query.data == 'm1':
         # first submenu
         menu_1 = [[InlineKeyboardButton('실시간 차트 검색', callback_data='m1_1')],
-                  #     [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m1_2')],
-                  #     [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m1_3')],
+                  [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m1_2')],
+                  [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m1_3')],
                   [InlineKeyboardButton('홈으로 돌아가기', callback_data='main')]]
         reply_markup = InlineKeyboardMarkup(menu_1)
         bot.edit_message_text(chat_id=query.message.chat_id,
@@ -70,8 +68,8 @@ def menu_actions(bot, update):
         # second submenu
         # first submenu
         menu_2 = [[InlineKeyboardButton('실시간 차트 검색', callback_data='m2_1')],
-                  #  [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m2_2')],
-                  #  [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m2_3')],
+                  [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m2_2')],
+                  [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m2_3')],
                   [InlineKeyboardButton('홈으로 돌아가기', callback_data='main')]]
         reply_markup = InlineKeyboardMarkup(menu_2)
         bot.edit_message_text(chat_id=query.message.chat_id,
@@ -81,8 +79,8 @@ def menu_actions(bot, update):
 
     elif query.data == 'm3':
         menu_3 = [[InlineKeyboardButton('실시간 차트 검색', callback_data='m3_1')],
-                  # [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m3_2')],
-                  # [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m3_3')],
+                  [InlineKeyboardButton('가수 이름 또는 곡명 검색', callback_data='m3_2')],
+                  [InlineKeyboardButton('가수별 곡 차트 검색', callback_data='m3_3')],
                   [InlineKeyboardButton('홈으로 돌아가기', callback_data='main')]]
         reply_markup = InlineKeyboardMarkup(menu_3)
         bot.edit_message_text(chat_id=query.message.chat_id,
@@ -123,62 +121,51 @@ def menu_actions(bot, update):
                          text="Back to the Melon Menu",
                          reply_markup=reply_markup)
 
-    elif query.data == 'm1_2':
-        sw = []
-        web_url = "http://www.naver.com"
-        with urllib.request.urlopen(web_url) as response:
-            html = response.read()
-            soup = BeautifulSoup(html, "html.parser")
-            roll = soup.find("div", {'class': 'ah_roll_area'})
-            sw = roll.find("ul").find_all("li")
-            sw = [i.find("a").find("span", {"class": "ah_k"}).text for i in sw]
-            return sw
-        # dp = updater.dispatcher
-        # dp.add_handler(MessageHandler(Filters.text, user_input))
-        # bot.edit_message_text(chat_id=query.message.chat_id,
-        #                       message_id=query.message.message_id,
-        #                       user_input=update.message.text,
-        #                       text="Please Input Singer or Song you want: ")
-        # user_input = update.message.text
-        #
-        # headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"}
-        # get_File = requests.get("https://www.melon.com/chart/index.htm", headers=headers)
-        #
-        # html = get_File.text
-        # bsObj = BeautifulSoup(html, "html.parser")
-        #
-        # charts = bsObj.findAll("div", {"class": "ellipsis rank01"})
-        # artists = bsObj.findAll("span", {"class": "checkEllipsis"})
-        #
-        # temp = ''
-        # for i in range(len(charts)):
-        #     chart = charts[i].text.strip()
-        #     artist = artists[i].text.strip()
-        #
-        #     if user_input in chart or user_input in artist:
-        #         result += ["{0:3d}위 {1} - {2}".format(i + 1, chart, artist)]
-        #
-        # if len(result) > 0:
-        #     for r in result:
-        #         temp += r + "\n"
-        #     bot.send_message(message_id=query.message.message_id,
-        #                      chat_id=query.message.chat_id,
-        #                      text=temp)
-
-        menu_1_2 = [[InlineKeyboardButton('Back', callback_data='m1')]]
-        reply_markup = InlineKeyboardMarkup(menu_1_2)
-        bot.edit_message_text(chat_id=query.message.chat_id,
-                              message_id=query.message.message_id,
-                              text="Back to the Melon Menu",
-                              reply_markup=reply_markup)
-
-    elif query.data == 'm1_3':
-        menu_1_3 = [[InlineKeyboardButton('Back', callback_data='m1')]]
-        reply_markup = InlineKeyboardMarkup(menu_1_3)
-        bot.edit_message_text(chat_id=query.message.chat_id,
-                              message_id=query.message.message_id,
-                              text="Back to the Melon Menu",
-                              reply_markup=reply_markup)
+    # elif query.data == 'm1_2':
+    #     # dp = updater.dispatcher
+    #     # dp.add_handler(MessageHandler(Filters.text, user_input))
+    #     # bot.edit_message_text(chat_id=query.message.chat_id,
+    #     #                       message_id=query.message.message_id,
+    #     #                       text="원하는 가수 또는 곡의 제목을 입력하세요 : {}".format(user_input))
+    #     #
+    #     # headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"}
+    #     # get_File = requests.get("https://www.melon.com/chart/index.htm", headers=headers)
+    #     #
+    #     # html = get_File.text
+    #     # bsObj = BeautifulSoup(html, "html.parser")
+    #     #
+    #     # charts = bsObj.findAll("div", {"class": "ellipsis rank01"})
+    #     # artists = bsObj.findAll("span", {"class": "checkEllipsis"})
+    #     #
+    #     # temp = ''
+    #     # for i in range(len(charts)):
+    #     #     chart = charts[i].text.strip()
+    #     #     artist = artists[i].text.strip()
+    #     #
+    #     #     if user_input in chart or user_input in artist:
+    #     #         result += ["{0:3d}위 {1} - {2}".format(i + 1, chart, artist)]
+    #     #
+    #     # if len(result) > 0:
+    #     #     for r in result:
+    #     #         temp += r + "\n"
+    #     #     bot.send_message(message_id=query.message.message_id,
+    #     #                      chat_id=query.message.chat_id,
+    #     #                      text=temp)
+    #
+    #     menu_1_2 = [[InlineKeyboardButton('Back', callback_data='m1')]]
+    #     reply_markup = InlineKeyboardMarkup(menu_1_2)
+    #     bot.edit_message_text(chat_id=query.message.chat_id,
+    #                           message_id=query.message.message_id,
+    #                           text="Back to the Melon Menu",
+    #                           reply_markup=reply_markup)
+    #
+    # elif query.data == 'm1_3':
+    #     menu_1_3 = [[InlineKeyboardButton('Back', callback_data='m1')]]
+    #     reply_markup = InlineKeyboardMarkup(menu_1_3)
+    #     bot.edit_message_text(chat_id=query.message.chat_id,
+    #                           message_id=query.message.message_id,
+    #                           text="Back to the Melon Menu",
+    #                           reply_markup=reply_markup)
 
     # Genie Menu
     elif query.data == 'm2_1':
@@ -229,21 +216,21 @@ def menu_actions(bot, update):
                          text="Back to the Genie Menu",
                          reply_markup=reply_markup)
 
-    elif query.data == 'm2_2':
-        menu_2_2 = [[InlineKeyboardButton('Back', callback_data='m2')]]
-        reply_markup = InlineKeyboardMarkup(menu_2_2)
-        bot.edit_message_text(chat_id=query.message.chat_id,
-                              message_id=query.message.message_id,
-                              text="Back to the Genie Menu",
-                              reply_markup=reply_markup)
-
-    elif query.data == 'm2_3':
-        menu_2_3 = [[InlineKeyboardButton('Back', callback_data='m2')]]
-        reply_markup = InlineKeyboardMarkup(menu_2_3)
-        bot.edit_message_text(chat_id=query.message.chat_id,
-                              message_id=query.message.message_id,
-                              text="Back to the Genie Menu",
-                              reply_markup=reply_markup)
+    # elif query.data == 'm2_2':
+    #     menu_2_2 = [[InlineKeyboardButton('Back', callback_data='m2')]]
+    #     reply_markup = InlineKeyboardMarkup(menu_2_2)
+    #     bot.edit_message_text(chat_id=query.message.chat_id,
+    #                           message_id=query.message.message_id,
+    #                           text="Back to the Genie Menu",
+    #                           reply_markup=reply_markup)
+    #
+    # elif query.data == 'm2_3':
+    #     menu_2_3 = [[InlineKeyboardButton('Back', callback_data='m2')]]
+    #     reply_markup = InlineKeyboardMarkup(menu_2_3)
+    #     bot.edit_message_text(chat_id=query.message.chat_id,
+    #                           message_id=query.message.message_id,
+    #                           text="Back to the Genie Menu",
+    #                           reply_markup=reply_markup)
 
     # Bugs Menu
     elif query.data == 'm3_1':
@@ -278,21 +265,21 @@ def menu_actions(bot, update):
                          text="Back to the Bugs Menu",
                          reply_markup=reply_markup)
 
-    elif query.data == 'm3_2':
-        menu_3_2 = [[InlineKeyboardButton('Back', callback_data='m3')]]
-        reply_markup = InlineKeyboardMarkup(menu_3_2)
-        bot.edit_message_text(chat_id=query.message.chat_id,
-                              message_id=query.message.message_id,
-                              text="Back to the Bugs Menu",
-                              reply_markup=reply_markup)
-
-    elif query.data == 'm3_3':
-        menu_3_3 = [[InlineKeyboardButton('Back', callback_data='m3')]]
-        reply_markup = InlineKeyboardMarkup(menu_3_3)
-        bot.edit_message_text(chat_id=query.message.chat_id,
-                              message_id=query.message.message_id,
-                              text="Back to the Bugs Menu",
-                              reply_markup=reply_markup)
+    # elif query.data == 'm3_2':
+    #     menu_3_2 = [[InlineKeyboardButton('Back', callback_data='m3')]]
+    #     reply_markup = InlineKeyboardMarkup(menu_3_2)
+    #     bot.edit_message_text(chat_id=query.message.chat_id,
+    #                           message_id=query.message.message_id,
+    #                           text="Back to the Bugs Menu",
+    #                           reply_markup=reply_markup)
+    #
+    # elif query.data == 'm3_3':
+    #     menu_3_3 = [[InlineKeyboardButton('Back', callback_data='m3')]]
+    #     reply_markup = InlineKeyboardMarkup(menu_3_3)
+    #     bot.edit_message_text(chat_id=query.message.chat_id,
+    #                           message_id=query.message.message_id,
+    #                           text="Back to the Bugs Menu",
+    #                           reply_markup=reply_markup)
 
     # and so on for every callback_data option
 
