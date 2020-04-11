@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad6c9213-317b-4f33-9021-4e50f617f1c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Melon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/callbackquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/chataction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/chatmember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/choseninlineresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/basepersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/callbackcontext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/callbackqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/choseninlineresulthandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/commandhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/conversationhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/dictpersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/inlinequeryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/jobqueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/messagehandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/messagequeue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/picklepersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/precheckoutqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/regexhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/shippingqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/stringcommandhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/stringregexhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/typehandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/ext/updater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/chatphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/inputfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/inputmedia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/photosize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/sticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/venue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/videonote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/files/voice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/forcereply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/games/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/games/callbackgame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/games/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/games/gamehighscore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinekeyboardbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinekeyboardmarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultarticle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultaudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcachedaudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcacheddocument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcachedgif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcachedmpeg4gif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcachedphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcachedsticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcachedvideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcachedvoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultcontact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultdocument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultgame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultgif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultlocation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultmpeg4gif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultvenue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultvideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inlinequeryresultvoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inputcontactmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inputlocationmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inputmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inputtextmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/inline/inputvenuemessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/keyboardbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/messageentity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/parsemode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/passport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/passport/credentials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/passport/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/passport/encryptedpassportelement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/passport/passportdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/passport/passportelementerrors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/passport/passportfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/invoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/labeledprice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/orderinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/precheckoutquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/shippingaddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/shippingoption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/shippingquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/payment/successfulpayment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/replykeyboardmarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/replykeyboardremove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/replymarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/userprofilephotos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/utils/deprecate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/utils/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/utils/promise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/utils/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/utils/webhookhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/contrib/appengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/packages/ordered_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/selectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/vendor/ptb_urllib3/urllib3/util/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/build/lib/telegram/webhookinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/dist/python_telegram_bot-12.0.0b1-py3.7.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/requirements-docs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/_static/.placeholder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/changelog.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/ptb-logo-orange.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/ptb-logo-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/ptb-logo_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.animation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.audio.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.bot.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.callbackgame.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.callbackquery.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.chat.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.chataction.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.chatmember.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.chatphoto.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.choseninlineresult.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.constants.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.contact.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.credentials.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.datacredentials.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.document.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.encryptedcredentials.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.encryptedpassportelement.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.error.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.basepersistence.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.callbackcontext.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.callbackqueryhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.choseninlineresulthandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.commandhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.conversationhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.delayqueue.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.dictpersistence.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.dispatcher.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.filters.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.handler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.inlinequeryhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.job.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.jobqueue.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.messagehandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.messagequeue.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.picklepersistence.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.precheckoutqueryhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.prefixhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.regexhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.shippingqueryhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.stringcommandhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.stringregexhandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.typehandler.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.ext.updater.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.file.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.filecredentials.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.forcereply.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.game.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.gamehighscore.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.iddocumentdata.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinekeyboardbutton.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinekeyboardmarkup.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequery.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresult.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultarticle.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultaudio.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcachedaudio.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcacheddocument.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcachedgif.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcachedmpeg4gif.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcachedphoto.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcachedsticker.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcachedvideo.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcachedvoice.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultcontact.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultdocument.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultgame.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultgif.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultlocation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultmpeg4gif.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultphoto.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultvenue.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultvideo.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inlinequeryresultvoice.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputcontactmessagecontent.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputfile.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputlocationmessagecontent.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputmedia.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputmediaanimation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputmediaaudio.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputmediadocument.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputmediaphoto.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputmediavideo.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputmessagecontent.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputtextmessagecontent.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.inputvenuemessagecontent.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.invoice.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.keyboardbutton.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.labeledprice.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.location.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.maskposition.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.message.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.messageentity.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.orderinfo.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.parsemode.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.passportdata.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.passportelementerror.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.passportelementerrordatafield.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.passportelementerrorfile.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.passportelementerrorfiles.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.passportelementerrorfrontside.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.passportelementerrorreverseside.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.passportfile.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.personaldetails.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.photosize.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.precheckoutquery.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.replykeyboardmarkup.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.replykeyboardremove.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.replymarkup.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.residentialaddress.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.securedata.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.shippingaddress.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.shippingoption.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.shippingquery.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.sticker.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.stickerset.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.successfulpayment.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.telegramobject.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.update.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.user.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.userprofilephotos.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.utils.helpers.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.utils.promise.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.utils.request.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.utils.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.venue.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.video.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.videonote.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.voice.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/docs/source/telegram.webhookinfo.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/.idea/telegram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/callbackquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/chataction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/chatmember.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/choseninlineresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/basepersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/callbackcontext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/callbackqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/choseninlineresulthandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/commandhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/conversationhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/dictpersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/inlinequeryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/jobqueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/messagehandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/messagequeue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/picklepersistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/precheckoutqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/regexhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/shippingqueryhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/stringcommandhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/stringregexhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/typehandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/ext/updater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/chatphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/inputfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/inputmedia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/photosize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/sticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/venue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/videonote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/files/voice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/forcereply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/games/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/games/callbackgame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/games/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/games/gamehighscore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinekeyboardbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinekeyboardmarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultarticle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultaudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcachedaudio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcacheddocument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcachedgif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcachedmpeg4gif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcachedphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcachedsticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcachedvideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcachedvoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultcontact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultdocument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultgame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultgif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultlocation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultmpeg4gif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultphoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultvenue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultvideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inlinequeryresultvoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inputcontactmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inputlocationmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inputmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inputtextmessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/inline/inputvenuemessagecontent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/keyboardbutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/messageentity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/parsemode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/passport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/passport/credentials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/passport/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/passport/encryptedpassportelement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/passport/passportdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/passport/passportelementerrors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/passport/passportfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/invoice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/labeledprice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/orderinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/precheckoutquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/shippingaddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/shippingoption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/shippingquery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/payment/successfulpayment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/replykeyboardmarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/replykeyboardremove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/replymarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/userprofilephotos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/utils/deprecate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/utils/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/utils/promise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/utils/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/utils/webhookhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/CHANGES.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/CONTRIBUTORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/_travis/fetch_gae_sdk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/_travis/install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/_travis/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/_travis/upload_coverage.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/codecov.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/dev-requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/_templates/fonts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/advanced-usage.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/contributing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/reference/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/reference/urllib3.contrib.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/reference/urllib3.util.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/docs/user-guide.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/tox.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/contrib/appengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/packages/ordered_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/selectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/vendor/ptb_urllib3/urllib3/util/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manage_Outfile/telegram/webhookinfo.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Q36hXyhqKJuzB6gavN4gmgp65R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/Main/Attribute" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python_Class\Chatbots_Telegram\Melon\Main\Manage_AllFile" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python_Class\Chatbots_Telegram\Melon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="ㅁㄴㅇㄻㄴㅇ" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Melon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/ㅁㄴㅇㄻㄴㅇ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Bot (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Melon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main/Manage_AllFile" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/Manage_AllFile/Bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Bot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Melon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Python_Class\Chatbots_Telegram\Melon\Main\Manage_AllFile\Bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Melon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Melon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/testtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.testtest" />
+        <item itemvalue="Python.ㅁㄴㅇㄻㄴㅇ" />
+        <item itemvalue="Python.Bot (1)" />
+        <item itemvalue="Python.Bot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad6c9213-317b-4f33-9021-4e50f617f1c4" name="Default Changelist" comment="" />
+      <created>1566987051530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566987051530</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1567336217018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567336217018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1568631557871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568631557871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1586525340617">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1019@0.0.1920.1019" timestamp="1586525340617" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom" timestamp="1586604244382">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1019@0.0.1920.1019" timestamp="1586604244382" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center" timestamp="1586604244382">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.0.1920.1019@0.0.1920.1019" timestamp="1586604244382" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left" timestamp="1586604244382">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.0.1920.1019@0.0.1920.1019" timestamp="1586604244382" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right" timestamp="1586604244382">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.0.1920.1019@0.0.1920.1019" timestamp="1586604244382" />
+    <state x="335" y="221" key="SettingsEditor" timestamp="1586525258408">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="335" y="221" key="SettingsEditor/0.0.1920.1019@0.0.1920.1019" timestamp="1586525258408" />
+    <state x="652" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1578964733694">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="652" y="334" key="com.intellij.ide.util.TipDialog/0.0.1920.1019@0.0.1920.1019" timestamp="1578964733694" />
+    <state x="764" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578923807182">
+      <screen x="0" y="0" width="1920" height="1019" />
+    </state>
+    <state x="764" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1019@0.0.1920.1019" timestamp="1578923807182" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main/Main.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
